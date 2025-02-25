@@ -1,5 +1,9 @@
-import styles from "./page.module.css";
+"use client";
+
+import { Button } from "@/components/ui/button";
+
+import "./globals.css";
 
 export default function Home() {
-  return <div className={styles.page}></div>;
+  return <Button>Hello World!</Button>;
 }
