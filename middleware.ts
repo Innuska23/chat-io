@@ -8,4 +8,5 @@ export const config = {
         '/',
         '/(api|trpc)(.*)',
     ],
+    publicRoutes: ["/", "/sign-in", "/sign-up"]
 };
